@@ -1,4 +1,7 @@
 # CPSY 1950 — Computational Models of Human Behavior: Demo Notebook
+## Full project specs
+https://thomas-serre.com/cpsy1950/final-project
+
 This repository contains a demo notebook for CPSY 1950 at Brown University, illustrating how large language models can be evaluated as models of human decision making using the **two-step task**: a classic paradigm from computational psychiatry.
 ## Overview
 The notebook covers two experiments:
@@ -37,6 +40,9 @@ python -m ipykernel install --user --name cpsy1950
 ````
 jupyter lab
 ````
+## Connecting to the API
+In order for your API calls to work, you must be connected to the Brown University VPN: https://it.brown.edu/services/virtual-private-network-vpn
+
 ## References
 - Binz et al. (2025). *Centaur: a foundation model of human cognition*
 - Feher da Silva et al. (2023). *Rethinking model-based and model-free influences on mental effort and striatal prediction errors.* Nature Human Behaviour, 7(6), 956–969.
